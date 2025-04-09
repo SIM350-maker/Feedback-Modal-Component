@@ -49,14 +49,19 @@ submitBtn.onclick = () => {
       },
       body: JSON.stringify({ rating: selected })
     })
-    .then(response => response.text())
-    .then(message => {
-      alert(message);  // e.g., "Rating submitted successfully."
+    .then(response => {
+      if (!response.ok) {
+        return response.json().then(err => { throw new Error(err.message); });
+      }
+      return response.json();
+    })
+    .then(data => {
+      alert(data.message);  // e.g., "Rating submitted successfully."
       closeModal();
     })
     .catch(error => {
-      console.error("submission error :", error);
-      alert("Error in submitting your rating. Try again later.");
+      console.error("Submission error:", error);
+      alert(error.message || "Error in submitting your rating. Try again later.");
     });
   } else {
     alert('Please choose a rating first.');
