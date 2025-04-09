@@ -2,7 +2,7 @@
 
 This is a simple, responsive feedback modal widget built using **HTML**, **CSS**, and **JavaScript**. It allows users to rate a service (like FrontendPro) from 1 to 10 and submit their feedback via a clean and modern UI.
 
-![Feedback Modal Preview](desktop.png)
+![Feedback Modal Preview](design/desktop.png)
 
 ---
 
@@ -25,11 +25,11 @@ This is a simple, responsive feedback modal widget built using **HTML**, **CSS**
 
 ## 📸 Screenshots
 
-### Modal Closed
-![Closed Modal](desktop-cover.png)
+### Modal Closed  
+![Closed Modal](design/desktop-cover.png)
 
-### Modal Active
-![Active Modal](desktop-active.png)
+### Modal Active  
+![Active Modal](design/desktop-active.png)
 
 ---
 
@@ -62,5 +62,3 @@ This is a simple, responsive feedback modal widget built using **HTML**, **CSS**
 This widget uses **no external libraries** – pure HTML, CSS, and vanilla JavaScript.
 
 ---
-
-
