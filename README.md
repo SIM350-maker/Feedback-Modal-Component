@@ -48,7 +48,7 @@ This is a simple, responsive feedback modal widget built using **HTML**, **CSS**
 
 3. Ensure you have a local MySQL database named `feedback_db` and a table named `feedback` with a `rating` column.
 
-4. PHP backend (`submit_rating.php`) handles data storage via AJAX.
+4. PHP backend (`submit_rating.php`) handles data storage via Mysql.
 
 ---
 
